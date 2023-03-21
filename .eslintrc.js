@@ -1,3 +1,4 @@
+/* eslint-disable quote-props */
 module.exports = {
   env: {
     browser: true,
@@ -19,5 +20,7 @@ module.exports = {
     "import/first": "off",
     // eslint-disable-next-line quotes
     "no-param-reassign": "off",
+    // eslint-disable-next-line quotes
+    "camelcase": "off",
   },
 };

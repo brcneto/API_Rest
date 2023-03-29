@@ -6,7 +6,7 @@ import loginRequired from '../middlewares/loginRequired';
 const router = new Router();
 
 // Não deveria existir(falha de segurança)
-router.get('/', userController.index); // Lista usuários
+// router.get('/', userController.index); // Lista usuários
 // router.get('/:id', userController.show); // Caso específico
 
 // router.post('/', userController.store); // prevenir bot de spam.
